@@ -2,7 +2,7 @@
 
 int main(){
     int a, b, prime = 1;
-    printf("Enter the number if its prime : ");
+    printf("Enter the number to check if its prime : ");
     scanf("%d", &a);
     for (int i = 2; i < a; i++){
         b = a % i;
